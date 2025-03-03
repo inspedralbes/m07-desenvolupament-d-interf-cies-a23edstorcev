@@ -18,4 +18,5 @@ Llistat d'alguns dels punts que han de quedar explicats en aquesta carpeta. Pode
  * Altres elements importants.
  * ...
 PRUEBA
-PRUEBA2
+PRUEBA2Ç
+JEJE
