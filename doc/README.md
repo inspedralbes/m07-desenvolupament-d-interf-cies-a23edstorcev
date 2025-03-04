@@ -17,3 +17,10 @@ Llistat d'alguns dels punts que han de quedar explicats en aquesta carpeta. Pode
  * Aplicació Android
  * Altres elements importants.
  * ...
+PRUEBA
+PRUEBA2Ç
+JEJE
+PPRUEBA4
+PICA
+CACA
+pepe
