@@ -1,7 +1,7 @@
 describe('Proves E2E del meu lloc web', () => {
   it('Comprova que la pàgina principal es carrega i té el meu nom', () => {
       cy.visit('http://cypressact.dam.inspedralbes.cat/')
-      cy.contains('El meu nom és Edson Torres').should('be.visible')
+      cy.contains('NICO SE VA A REPUBLICA DOMINICANA').should('be.visible')
   })
 
   it('Comprova que el link a projectes funciona', () => {

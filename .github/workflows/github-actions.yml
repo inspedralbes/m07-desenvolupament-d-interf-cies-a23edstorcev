@@ -18,6 +18,6 @@ jobs:
           cd ${{ github.workspace }}
           echo "Action desplegant a produccio" > ./web/last_deploy.txt
           date >> ./web/last_deploy.txt
-          scp -r -o stricthostkeychecking=no -o UserKnownHostsFile=/dev/null -i ~/prod_key.pem ./web/* ${{ secrets.PROD_USER }}@${{ secrets.PROD_HOST }}:/home/a23edstorcev/web/cypressact.dam.inspedralbes.cat/public_html/
+          scp -r -o stricthostkeychecking=no -o UserKnownHostsFile=/dev/null -i ~/prod_key.pem index.html projectes.html ${{ secrets.PROD_USER }}@${{ secrets.PROD_HOST }}:/home/a23edstorcev/web/cypressact.dam.inspedralbes.cat/public_html/
 
       - run: echo "🍏 This job's status is ${{ job.status }}."
